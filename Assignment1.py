@@ -1,8 +1,8 @@
 import torch
-import torch.nn as nn  # All neural network modules, nn.Linear, nn.Conv2d, BatchNorm, Loss functions
-import torch.optim as optim  # For all Optimization algorithms, SGD, Adam, etc.
-import torch.nn.functional as F  # All functions that don't have any parameters
-from torch.utils.data import DataLoader  # Gives easier dataset management and creates mini batches
+import torch.nn as nn 
+import torch.optim as optim  
+import torch.nn.functional as F  
+from torch.utils.data import DataLoader  
 from torch.optim import lr_scheduler
 from torchvision import datasets, models, transforms
 
